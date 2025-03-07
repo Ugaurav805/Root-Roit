@@ -1,7 +1,7 @@
 /* Login Page Styles */
 .login-container {
-  width: 420px;
-  left: 450px;
+  width: 460px;
+  left: 440px;
   top: 100px;
   background: rgba(255, 255, 255, 0.6);
   border: 2px solid rgba(102, 143, 59, 0.2);
@@ -32,9 +32,9 @@
   width: 100%;
   background: rgba(255, 255, 255, 0.2);
   border: 2px solid rgb(0, 0, 0);
-  font-size: 16px;
+  font-size: 18px;
   outline: none;
-  color: #fff;
+  color: #060000;
   border-radius: 40px;
   padding: 10px;
   transition: border-color 0.3s; /* Smooth transition for border color */
@@ -49,7 +49,8 @@
   color: white;
   padding: 10px;
   border: none;
-  border-radius: 5px;
+  font-size: 20px;
+  border-radius: 8px;
   cursor: pointer;
   transition: background-color 0.3s; /* Smooth transition for background color */
 }

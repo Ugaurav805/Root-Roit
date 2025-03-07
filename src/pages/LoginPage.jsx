@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import './LoginPage.css';
+import './Loginpage.css';
 import PropTypes from 'prop-types';
 
 function LoginPage({ onLogin }) {
@@ -11,7 +11,7 @@ function LoginPage({ onLogin }) {
   const [rememberMe, setRememberMe] = useState(false);
 
   useEffect(() => {
-    document.body.style.backgroundImage = "url('/src/assets/pexels-pixabay-122429.jpg')";
+    document.body.style.backgroundImage = "url('/public/pexels-pixabay-122429.jpg')";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
 
