@@ -1,0 +1,167 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Container */
+  .dr-botanist-container {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* Header Section */
+  .header {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .header p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  /* What Dr. Botanist Can Do Section */
+  .what-can-dr-botanist-do {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .what-can-dr-botanist-do h2 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .what-can-dr-botanist-do ul {
+    list-style: none;
+    line-height: 1.8;
+  }
+  
+  .what-can-dr-botanist-do li {
+    margin-bottom: 15px;
+  }
+  
+  .what-can-dr-botanist-do li strong {
+    color: #4CAF50;
+  }
+  
+  /* Features Section */
+  .features {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .features h2 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .features ul {
+    list-style: none;
+    line-height: 1.8;
+  }
+  
+  .features li {
+    margin-bottom: 15px;
+  }
+  
+  .features li strong {
+    color: #4CAF50;
+  }
+  
+  /* Footer Section */
+  .footer {
+    text-align: center;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+  }
+  /* Upload Section */
+.upload-section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-section h2 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .upload-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .upload-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-buttons button:hover {
+    background-color: #45a049;
+  }
+  
+  .image-preview {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    max-height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tips Section */
+  .care-tips {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .care-tips h2 {
+    font-size: 28px;
+    color: #4CAF50;
+    margin-bottom: 20px;
+  }
+  
+  .care-tips p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  

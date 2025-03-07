@@ -1,0 +1,84 @@
+/* Login Page Styles */
+.login-container {
+  width: 420px;
+  left: 450px;
+  top: 100px;
+  background: rgba(255, 255, 255, 0.6);
+  border: 2px solid rgba(102, 143, 59, 0.2);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: #1b0000;
+  padding: 30px 40px;
+  border-radius: 10px;
+  margin: auto; /* Center the container */
+  position: relative; /* For positioning */
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #000000;
+  text-align: center; /* Center the heading */
+}
+
+.login-container form {
+  width: 100%;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.login-container input {
+  width: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgb(0, 0, 0);
+  font-size: 16px;
+  outline: none;
+  color: #fff;
+  border-radius: 40px;
+  padding: 10px;
+  transition: border-color 0.3s; /* Smooth transition for border color */
+}
+
+.login-container input:focus {
+  border-color: #27ae60; /* Change border color on focus */
+}
+
+.login-container button {
+  background-color: #27ae60;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+.login-container button:hover {
+  background-color: #219150;
+}
+
+/* Link Styles */
+.login-container a {
+  color: #27ae60; /* Match the button color */
+  text-decoration: none; /* Remove underline */
+}
+
+.login-container a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Error Message Styles */
+.error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center; /* Center the error message */
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+  .login-container {
+    width: 90%; /* Make the container responsive */
+    padding: 20px; /* Adjust padding */
+  }
+}

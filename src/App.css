@@ -1,0 +1,91 @@
+/* Reset and Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff;
+  color: #333;
+  margin: 0;
+}
+
+/* App Container Styles */
+.app-container {
+  margin-top: 70px;
+  text-align: center;
+  padding: 0 20px;
+}
+
+/* My Plants Page Styles */
+.plants-container {
+  padding: 20px;
+}
+
+.plants-container h2 {
+  color: #2c3e50;
+}
+
+.plants-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.plants-container li {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plants-container button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.plants-container button:hover {
+  background-color: #c0392b;
+}
+
+/* Plant Care Guide Page Styles */
+.care-container {
+  padding: 20px;
+}
+
+.care-container h2 {
+  color: #2c3e50;
+}
+
+.care-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.care-container li {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .app-container {
+    padding: 0 20px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav li {
+    margin: 10px 0;
+  }
+}

@@ -1,0 +1,127 @@
+/* Navbar Styles */
+.navbar {
+  position: fixed; /* Keep the navbar fixed at the top */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px; /* Adjust height to fit your design */
+  background-color: #ffffff; /* White background */
+  z-index: 1000; /* Ensure it stays on top of other elements */
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between; /* Make space between items */
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow for separation */
+}
+
+.company-name {
+  font-size: 1.5rem; /* Adjust font size */
+  font-weight: bold;
+  color: #333; /* Text color */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1; /* Allow the list to take up remaining space */
+}
+
+.navbar-item {
+  margin: 0 15px;
+}
+
+.navbar-item a {
+  text-decoration: none;
+  color: #333; /* Text color */
+  font-weight: bold;
+  font-size: 1rem;
+  transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navbar-item a.active {
+  color: #27ae60; /* Highlight the active page */
+}
+
+.navbar-item a:hover {
+  color: #1a73e8; /* Highlight on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    padding: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    box-shadow: none; /* Remove shadow for mobile */
+  }
+
+  .company-name {
+    font-size: 1.3rem; /* Slightly smaller font on mobile */
+    margin-bottom: 10px; /* Add space below company name */
+  }
+
+  .navbar-list {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding-left: 0; /* Align the list to the left */
+  }
+
+  .navbar-item {
+    margin: 10px 0; /* Space between items */
+  }
+
+  .navbar-item a {
+    font-size: 1.2rem; /* Increase font size for better readability on mobile */
+  }
+}
+
+/* Optional: Adding a "hamburger" menu for smaller screens */
+@media (max-width: 480px) {
+  .navbar-list {
+    display: none; /* Hide navbar items by default on small screens */
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .navbar-item a {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    text-align: left; /* Align links to the left */
+    width: 100%; /* Make items full width */
+  }
+
+  .navbar-menu-toggle {
+    display: block; /* Show the hamburger icon */
+    cursor: pointer;
+  }
+
+  .navbar-menu-toggle.active + .navbar-list {
+    display: flex; /* Show navbar items when hamburger icon is clicked */
+  }
+}
+
+/* Hamburger Icon Styles (Optional for mobile) */
+.navbar-menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.navbar-menu-toggle div {
+  height: 4px;
+  width: 25px;
+  background-color: #333;
+}
+
+.navbar-menu-toggle.active div {
+  background-color: #27ae60; /* Change color when active */
+}
