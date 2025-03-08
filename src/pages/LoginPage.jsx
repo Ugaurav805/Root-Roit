@@ -11,7 +11,8 @@ function LoginPage({ onLogin }) {
   const [rememberMe, setRememberMe] = useState(false);
 
   useEffect(() => {
-    document.body.style.backgroundImage = "url('/public/pexels-pixabay-122429.jpg')";
+    document.body.style.backgroundImage = "url('https://images.pexels.com/photos/1005711/pexels-photo-1005711.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
+    document.body.style.backgroundRepeat = "no-repeat";
     document.body.style.backgroundSize = "cover";
     document.body.style.backgroundPosition = "center";
 
